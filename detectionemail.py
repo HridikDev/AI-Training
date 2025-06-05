@@ -14,9 +14,9 @@ cap = cv2.VideoCapture(0)
 email_sent = False
 
 def send_email_with_attachment(image_path):
-    sender_email = "mca2432@rajagiri.edu"
-    receiver_email = "mca2432@rajagiri.edu"
-    password = "xuwj ythf kwzx uxbs"  # Use App Password if 2FA is enabled
+    sender_email = "sender_email"
+    receiver_email = "receiver_email"
+    password = "xxxxxx"  # Use App Password if 2FA is enabled
 
     msg = EmailMessage()
     msg["Subject"] = "🚨 Intruder Alert - Human Detected"
